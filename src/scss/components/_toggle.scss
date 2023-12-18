@@ -1,0 +1,27 @@
+@use "../base/styles" as *;
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+
+  .toggle-input {
+    display: none;
+    &:checked + .circle {
+      background-color: var(--primary-yellow-light);
+    }
+  }
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid var(--primary-yellow);
+    cursor: pointer;
+  }
+
+  .toggle-label {
+    @include font-texte-14px;
+  }
+}
