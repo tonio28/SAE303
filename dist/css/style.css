@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
+/* Reset CSS */
+/* Box sizing border-box reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Margin and padding reset */
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+code,
+em,
+img,
+small,
+strong,
+sub,
+sup,
+ul,
+ol,
+li,
+fieldset,
+form,
+label,
+legend,
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+/* Typography reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* Lists reset */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Links reset */
+a {
+  text-decoration: none;
+}
+
+/* Tables reset */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Input and Textarea reset */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+/* Reset form elements to match their parent */
+button,
+input,
+optgroup,
+select,
+textarea {
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+}
+
+/* Standardize form elements */
+button,
+input {
+  background-color: transparent;
+  border: none;
+}
+
+/* Textarea vertical alignment fix */
+textarea {
+  vertical-align: top;
+}
+
+/* Default cursor for clickable elements */
+button,
+input,
+select,
+textarea {
+  cursor: pointer;
+}
+
+/* Re-enable previously disabled hidden elements */
+[hidden] {
+  display: initial;
+}
+
+/* Optional - Add your own custom styles below this line */
+:root {
+  /* default */
+  /* colors */
+  --neutral-black: #000000;
+  --neutral-black-light: #555555;
+  --neutral-white: #ffffff;
+  --primary-brown: #573c2f;
+  --primary-brown-light: #8f7d74;
+  --primary-red: #ea6752;
+  --primary-red-light: #f19a8c;
+  --primary-yellow: #fecf44;
+  --primary-yellow-light: #fedf82;
+  --hover-btn-bg: var(--primary-red-light);
+  --hover-btn-fg: var(--neutral-white);
+  --primary-btn-bg: var(--primary-red);
+  --primary-btn-fg: var(--neutral-white);
+  --secondary-btn-bg: var(--neutral-white);
+  --secondary-btn-fg: var(--primary-brown);
+  --bag-btn-bg: var(--primary-red);
+  --bag-btn-fg: var(--neutral-white);
+  --bag-hover-btn-bg: var(--neutral-white);
+  --bag-hover-btn-fg: var(--primary-red);
+  --card-color-bg: var(--neutral-white);
+  --card-color-fg: var(--primary-brown);
+  --icon-primary: var(--neutral-white);
+  --icon-secondary: var(--primary-brown);
+  --label-primary-bg: var(--neutral-white);
+  --label-primary-fg: var(--primary-red);
+  --label-primary-stroke: var(--primary-red);
+  --conteur-primary-bg: var(--primary-red-light);
+  --conteur-primary-fg: var(--neutral-white);
+  --conteur-primary-stroke: var(--primary-red);
+  --nav-bg-primary: var(--neutral-white);
+  --nav-bg-secondary: var(--primary-yellow-light);
+}
+
+/*# sourceMappingURL=style.css.map */
