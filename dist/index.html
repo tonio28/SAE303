@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Horizontal Scroll with GSAP</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div class="container">
+    <section class="panel ">
+      <span></span>
+
+      <img src="../assets/Desktop - 10.png" alt="before">
+
+    </section>
+    <section class="panel ">
+      <img src="../assets/Desktop - 11.png" alt="before">
+    </section>
+    <section class="panel">
+
+    </section>
+  </div>
+  <div class="lastContainer">
+    <lottie-player id="firstLottie" src="../assets/chemin.json">
+    </lottie-player>
+  </div>
+  <div class="third-section">
+
+    <div id="animation" data-scroll-height="7200" data-animation-name="Animation100"
+      class="compteur dom-attribute-demo hidden">
+      <input class="compteur-text" type="text" value="0" />
+
+
+    </div>
+
+    <lottie-player autoplay src="../assets/bidon_anim.json">
+    </lottie-player>
+    <lottie-player autoplay src="../assets/carton_anim.json">
+    </lottie-player>
+    <lottie-player autoplay src="../assets/pierre_anim.json">
+    </lottie-player>
+
+
+    <div id="animation2" data-scroll-height="400" data-animation-name="Animation500"
+      class="compteur dom-attribute-demo hidden">
+      <input class="compteur-text" type="text" value="0" />
+    </div>
+
+    <div id="animation3" data-scroll-height="400" data-animation-name="Animation9999"
+      class="compteur dom-attribute-demo hidden">
+      <input class="compteur-text" type="text" value="0" />
+
+    </div>
+  </div>
+  <!-- partial -->
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426'></script>
+  <script src='https://assets.codepen.io/16327/ScrollTrigger.min.js'></script>
+  <script src='https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js'></script>
+  <script src='https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
