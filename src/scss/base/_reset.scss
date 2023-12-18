@@ -1,0 +1,122 @@
+/* Reset CSS */
+
+/* Box sizing border-box reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Margin and padding reset */
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+code,
+em,
+img,
+small,
+strong,
+sub,
+sup,
+ul,
+ol,
+li,
+fieldset,
+form,
+label,
+legend,
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+/* Typography reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* Lists reset */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Links reset */
+a {
+  text-decoration: none;
+}
+
+/* Tables reset */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Input and Textarea reset */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+/* Reset form elements to match their parent */
+button,
+input,
+optgroup,
+select,
+textarea {
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+}
+
+/* Standardize form elements */
+button,
+input {
+  background-color: transparent;
+  border: none;
+}
+
+/* Textarea vertical alignment fix */
+textarea {
+  vertical-align: top;
+}
+
+/* Default cursor for clickable elements */
+button,
+input,
+select,
+textarea {
+  cursor: pointer;
+}
+
+/* Re-enable previously disabled hidden elements */
+[hidden] {
+  display: initial;
+}
+
+/* Optional - Add your own custom styles below this line */
