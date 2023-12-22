@@ -1,0 +1,41 @@
+.container-8 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 4rem;
+  background-image: url(../../../assets/bg_bleu_orange_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  padding: 10rem 0;
+
+  &__h2 {
+    padding: 1rem;
+    font-family: "Oswald";
+    font-size: 4rem;
+    color: var(--dark);
+  }
+
+  &__sections {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__p-1 {
+      font-family: "Oswald";
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--black);
+    }
+
+    &__p-2 {
+      font-family: "Oswal
