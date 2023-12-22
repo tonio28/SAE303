@@ -154,12 +154,10 @@ body {
   --green-dark: #0d3f3e;
   --white: #ffffff;
   --mauve: #ad7fa1;
-  --vert-claire: #f7f7e9;
   --text-black: var(--black);
   --text-green-dark: var(--green-dark);
   --text-green: var(--green);
   --text-white: var(--white);
-  --vert-claire: var(--vert-claire);
 }
 
 .recomandation {
@@ -223,7 +221,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .container-2__panel__h2 {
   font-family: "Oswald";
   font-size: 3rem;
@@ -231,13 +228,11 @@ body {
   padding-top: 4rem;
   padding-left: 4rem;
 }
-
 .container-2__panel__h3-1 {
   font-family: "Oswald";
   font-size: 1rem;
   color: var(--black);
 }
-
 .container-2__panel__h3-2 {
   padding-top: 4rem;
   padding-left: 4rem;
@@ -245,33 +240,28 @@ body {
   font-size: 5rem;
   color: var(--green);
 }
-
 .container-2__panel__content {
   display: flex;
   align-items: center;
   flex-direction: row;
   position: relative;
 }
-
 .container-2__panel__content__span {
   font-family: "Industrial Gothic Single Std";
   font-size: 5rem;
   color: var(--green);
 }
-
-.container-2__panel__p-1 {
+.container-2__panel__content__p-1 {
   font-family: "Oswald";
   font-size: 3rem;
   color: var(--green);
 }
-
-.container-2__panel__p-2 {
+.container-2__panel__content__p-2 {
   font-family: "Oswald";
   font-size: 1.5rem;
   width: 40%;
   text-align: justify;
 }
-
 .container-2__panel__content__anim {
   width: 40%;
 }
@@ -597,64 +587,6 @@ body {
   text-align: center;
 }
 
-.container-9 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: url(../../../assets/bg_vert_orange.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  padding: 10rem 0;
-}
-.container-9 .container-9__content__section {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 2rem;
-}
-.container-9__h2 {
-  padding: 1rem;
-  font-family: "Oswald";
-  font-size: 4rem;
-  color: var(--dark);
-}
-.container-9__content {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 70%;
-  gap: 15rem;
-}
-.container-9__content__img {
-  width: 15%;
-  rotate: 350deg;
-}
-.container-9__section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-}
-.container-9__section__compteur {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Industrial Gothic Single Std";
-  font-size: 4rem;
-  text-align: center;
-  color: orange;
-}
-.container-9__section__p {
-  font-family: "Oswald";
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: var(--dark);
-}
-
 .container-10 {
   display: flex;
   flex-direction: column;
@@ -730,53 +662,6 @@ body {
   font-family: "Oswald";
   font-weight: 400;
   width: 60%;
-}
-
-.container-11 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  gap: 4rem;
-  background-image: url(../../../assets/bg_orange.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  padding: 10rem 0;
-}
-.container-11__h2 {
-  padding: 1rem;
-  font-family: "Oswald";
-  font-size: 4rem;
-  color: var(--dark);
-}
-.container-11__content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-}
-.container-11__content__img {
-  width: 30%;
-}
-.container-11__content__p-1 {
-  font-family: "Oswald";
-  font-size: 6rem;
-  font-weight: 700;
-  color: var(--green);
-  width: 40%;
-  text-align: justify;
-}
-.container-11__content__p-2 {
-  font-family: "Oswald";
-  font-size: 2rem;
-  font-weight: 400;
-  color: var(--dark);
-  width: 40%;
-  text-align: justify;
 }
 
 .source {
