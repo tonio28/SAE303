@@ -1,0 +1,16 @@
+{
+  "name": "sae303",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+"sass:w": "sass -w src/scss/main.scss:dist/css/style.css --verbose"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}
