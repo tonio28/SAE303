@@ -1,0 +1,23 @@
+@forward "container-1";
+@forward "container-2";
+@forward "container-3";
+@forward "container-4";
+@forward "container-5";
+@forward "container-6";
+@forward "container-7";
+@forward "container-8";
+@forward "container-9";
+@forward "container-10";
+@forward "container-11";
+@forward "source";
+@font-face {
+  font-family: "Industrial Gothic Single Std";
+  src: url(../assets/ghotic.otf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap");
+
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+}
