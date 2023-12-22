@@ -184,4 +184,29 @@ function setupScrollAnimation(targetSelector) {
     if (window.scrollY > scrollHeight && !animationExecuted) {
       targetElement.classList.remove("hidden");
 
-      var
+      var animationName = targetElement.dataset.animationName || "default";
+      var animationConfig = animationConfigurations[animationName];
+
+      if (animationConfig) {
+        initialPosition = anime.get(
+          targetSelector + " input",
+          "translateX",
+          "translateY"
+        );
+        anime(animationConfig).play();
+      } else {
+        console.log("Type d'animation non reconnu");
+      }
+
+      animationExecuted = true;
+    }
+  });
+}
+
+// Example usage
+
+setupScrollAnimation("#animation30");
+setupScrollAnimation("#animation43");
+setupScrollAnimation("#animation74");
+setupScrollAnimation("#animation84");
+setupScrollAnimation("#animation45");
